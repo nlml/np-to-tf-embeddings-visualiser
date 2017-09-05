@@ -1,8 +1,18 @@
-'''
+"""
 Example usage of save_embeddings.py
 
+We create some fake 'images' that are just random noise.
+
+We then create some fake embeddings of these images of lower
+dimension that are also just noise.
+
+We also create fake class labels for the images/embeddings.
+
+Then, after putting them into a dict of the required format,
+we pass it to the save_embeddings function
+
 Author: Liam Schoneveld
-'''
+"""
 
 import numpy as np
 from save_embeddings import save_embeddings
